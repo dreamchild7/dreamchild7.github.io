@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3422de641c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+
+
+    <!--Main Section Starts-->
+
+    <section id="welcome-section">
+        <header>
+            <div id="logo">AI</div>
+            <nav id="navbar">
+                <label for="nav-toggle">&#9776;</label>
+                <input type="checkbox" name="nav-toggle" id="nav-toggle">
+                <ul>
+                    <li><a href="#welcome-section">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">My Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <p class="i-am">I am</p>
+        <h1>Anachebe Ikechukwu</h1>
+        <p>I am a Frontend web developer, I currently code html, cascading stylesheets, a little javascript and python. I also habe fundamental knowledge of SQL and Excel. I can do data analysis with MSSQL and Python. Sometimes I see myself as a programmer,
+            at other times I am just a confused young man trying to make sense of his life.</p>
+        <button class="btn-read" value="Read More"> <a href="#about">Read More</a></button>
+
+    </section>
+    <section id="about">
+        <div class="about-title">
+            <h2>A Little About Me</h2>
+        </div>
+        <div class="about-me">
+            <p>I am a Frontend web developer, I currently code html, cascading stylesheets, a little javascript and python. I also have fundamental knowledge of SQL and Excel. I can do data analysis with MSSQL and Python. Sometimes I see myself as a programmer,
+                at other times I am just a confused young man trying to make sense of his life. <br> There are times I am a system administrator, or a painter, or a network administrator. There are even times I work on CCTV cameras. I am always loved
+                python and want to truly learn it, but being me I just can't seem to get my shit together. I am also a minimalist. How can I forget that. I have also been stuck in a shitty job for about six years now. I work everyday, put in my little
+                best but rarely moves forward. I am very lazy but super intelligent. I promised myself that by the end of 2020, I will move from a beginner to an expert developer. So help me God. <br> I am a good guy who likes bad things, I like solitude
+                and sometimes people bore me so I often enjoy my own company. I have a daughter, she is very beautiful and I love and cherish her so much. I want to be a responsible father to her and her other siblings when they start arriving. <br> After
+                reading this, I know you would feel sad and pity for me but don't make the mistake of giving me your project out of pity because I am going to trash it. This is probably the best thing I have ever built. Just rate it out of 10. You can
+                give me your feedback via mail or my social media handle. I hope to hear from you. Now peace out and do something important with your life.</p>
+            <div class="social">
+
+
+                <a href="https://github.com/dreamchild7" target="_blank"><img src="/image/github-square-brands.svg" alt="github"></a>
+
+
+                <a href="https://twitter.com/Dreamchild88" target="_blank"><img src="/image/twitter-square-brands.svg" alt="linkedin"></a>
+
+
+                <a href="https://www.linkedin.com/in/anachebe-ikechukwu-kingsley-688564aa/" target="_blank"><img src="/image/linkedin-brands.svg" alt="twitter"></a>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!--Projects Section Starts Here-->
+    <section id="projects">
+        <div class="project-title">
+            <h2>Some Of My Recent Projects</h2>
+        </div>
+        <div class="cards-wrapper">
+            <div class="card-grid-space">
+                <div class="num">01</div>
+                <a href="gigm.com" class="card" target="_blank" style="--bg-img:url('./image/gigm-bg.jpeg')">
+                    <div>
+                        <h1>GIGM.com</h1>
+                        <p>Online booking applocation for GIGM Transport Company</p>
+                        <div class="date">12 March 2020</div>
+                        <div class="tags">
+                            <div class="tag">visit site</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="card-grid-space">
+                <div class="num">02</div>
+                <a href="https://codepen.io/dreamchild88/pen/jOPmNGN" class="card" target="_blank" style="--bg-img:url('./image/form-bg.jpeg')">
+                    <div>
+                        <h1>Frontend Survey Form</h1>
+                        <p>Survey form built as part of Freecodecamp Certification test</p>
+                        <div class="date">12 March 2020</div>
+                        <div class="tags">
+                            <div class="tag">visit site</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="card-grid-space">
+                <div class="num">03</div>
+                <a href="https://codepen.io/dreamchild88/pen/abOENJQ" class="card" target="-blank" style="--bg-img:url('./image/css-bg.jpeg')">
+                    <div>
+                        <h1>CSS Documentation</h1>
+                        <p>Cascading stylesheet Documentation built as part of the Freecodecamp Certification Examination</p>
+                        <div class="date">12 March 2020</div>
+                        <div class="tags">
+                            <div class="tag">visit site</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section Starts Here-->
+    <section id="contact">
+        <div class="contact-title">
+            <h2>Contact Me Here</h2>
+        </div>
+        <div class="contact-page">
+            <div class="phone-number">
+                <h3>Call me on phone</h3>
+                <i class="fas fa-phone-square-alt"></i><span>07010128497</span>
+            </div>
+            <div class="mail-form">
+                <h3>Send me a mail</h3>
+                <form action="mail.php">
+
+
+                    <input type="text" id="firstname" placeholder="firstname" required>
+                    <input type="text" id="surname" placeholder="surname" required>
+
+                    <br>
+                    <input type="email" id="email" placeholder="your email" required>
+                    <input type="number" id="phone-number" placeholder="your phone number">
+                    <br>
+
+                    <textarea name="email-body" id="" cols="30" rows="10"></textarea placeholder="write me a message"><br>
+
+                    <input type="button" value="Send" id="btn">
+
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Footer starts here-->
+    <footer>
+        <div class="copy">&copy;2020 Developed by @Hermes</div>
+        <ul>
+            <li><a href="https://github.com/dreamchild7"><i class="fab fa-github-square"></i></a></li>
+                <li><a href="https://twitter.com/Dreamchild88" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/anachebe-ikechukwu-kingsley-688564aa/"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
